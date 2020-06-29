@@ -1,0 +1,20 @@
+{
+  "name": "project-4-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClayG89/project-4-b.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClayG89/project-4-b/issues"
+  },
+  "homepage": "https://github.com/ClayG89/project-4-b#readme"
+}
