@@ -24,20 +24,21 @@ export default class Home extends Component {
                     <div className="homeImg">
                         <div className="truckImg">
                             <a href="#">
-                                <img src="/Truck2.jpg" alt="Truck" width="450" height="300" />
+                                <img src="/Truck2.jpg" alt="Truck" width="350" height="225" />
                                 <div className="truckText"><h4>Find a Truck</h4></div>
                             </a>
                         </div>
                         <div className="freightImg">
                         <a href="#">
-                            <img src="/freight3.jpg" alt="Truck" width="450" height="300" />
+                            <img src="/freight3.jpg" alt="Truck" width="350" height="225" />
                             <div className="freightText"><h4>Find a Load</h4></div>
                         </a>
                         </div>
                     </div>
                 </div>
                 <div className="homeFooter">
-                    <div><p>Page created by Clayborn Guess</p></div>
+                    <div><p>Page created by Clayborn Guess using React, Django REST and PostgreSQL.</p></div>
+                    <div><p>claybornguess@yahoo.com</p></div>
                     <div></div>
                 </div>
             </div>
