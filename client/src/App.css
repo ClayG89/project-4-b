@@ -3,29 +3,94 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  background-image: url("/Logistics1.jpg");
+  background-image: url("/Logistics3.jpg");
   background-attachment: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .homeHeader {
   display: grid;
+  width: 100%;
+  grid-column: span 2;
   grid-template-rows: 0.4fr 0.4fr;
 }
 .Title {
   font-size: 45px;
   color: white;
 }
+button {
+  background-color: rgba(28, 185, 247);
+  color: white;
+  font-size: 20px;
+}
+input {
+  font-size: 20px;
+}
 .homeBody {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 3fr 1fr;
   grid-column: span 2;
+  min-height: 400px;
+}
+.homeImg {
+  display: grid;
+  grid-column: span 2;
+  margin: 0 auto;
+  min-height: 650px;
+  
 }
 .About {
   position: fixed;
   height: 100%;
-  font-size: 30px;
+  font-size: 24px;
+  color: white;
+  width: 250px;
+  background-color: rgba(28, 185, 247, 0.1);
+}
+.truckImg img {
+  border-radius: 6px;
+}
+.truckImg a { 
+  text-align: center;
+  opacity: 0.8;
+  padding: 1em;
+}
+.truckImg a .truckText {
+  position: absolute;
+  top: 31%;
+  left: 53%;
+  color: white;
+  font-size: 25px;
+  background-color: rgba(28, 185, 247, 0.5);
+  border-radius: 6px;
+  padding: .2em;
+}
+.freightImg img {
+  border-radius: 6px;
+}
+.freightImg a .freightText {
+  position: absolute;
+  top: 61.5%;
+  left: 53.5%;
+  color: white;
+  font-size: 25px;
+  background-color: rgba(28, 185, 247, 0.5);
+  border-radius: 6px;
+  padding: .2em;
+}
+.freightImg a {
+  text-align: center;
+  opacity: 0.8;
+  padding: 1em;
+}
+.homeFooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
 }
 .App {
   text-align: center;
