@@ -17,6 +17,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Add these two lines.
 REACT_APP_DIR = os.path.join(BASE_DIR, 'client')
 
+STATIC_URL = '/static/' 
+STATIC_ROOT = '/home/mysite/static/'
+MEDIA_URL = '/media/' 
+MEDIA_ROOT = 'media/'
+
 STATICFILES_DIRS = [
     os.path.join(REACT_APP_DIR, 'build', 'static')
 ]
