@@ -14,4 +14,4 @@ class LoadView(viewsets.ModelViewSet):
 
 class DispatchView(viewsets.ModelViewSet):
     queryset = Dispatch.objects.all()
-    serializer_class = 
+    serializer_class = DispatchSerializer

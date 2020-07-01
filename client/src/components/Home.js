@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default class Home extends Component {
     render() {
@@ -10,7 +11,7 @@ export default class Home extends Component {
                         <h1>Providence Transport</h1>
                     </div>
                     <div className="locater">
-                        <input type="text" placeholder="Enter Location"/>
+                        <input type="text" placeholder="Enter Location" />
                         <button>Submit</button>
                     </div>
                 </div>
@@ -23,16 +24,22 @@ export default class Home extends Component {
                 <div className="homeBody">
                     <div className="homeImg">
                         <div className="truckImg">
-                            <a href="#">
-                                <img src="/Truck2.jpg" alt="Truck" width="350" height="225" />
-                                <div className="truckText"><h4>Find a Truck</h4></div>
-                            </a>
+                            <div>
+                                <Link to="/truck">
+                                    <img src="/Truck2.jpg" alt="Truck" width="350" height="225" />
+                                    <div className="truckText"><h4>Find a Truck</h4></div>
+                                </Link>
+                            </div>
                         </div>
                         <div className="freightImg">
-                        <a href="#">
-                            <img src="/freight3.jpg" alt="Truck" width="350" height="225" />
-                            <div className="freightText"><h4>Find a Load</h4></div>
-                        </a>
+                            <div>
+                                <Link to="/load">
+                                    <img src="/freight3.jpg" alt="Truck" width="350" height="225" />
+                                    <div className="freightText"><h4>Find a Load</h4></div>
+                                </Link>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
