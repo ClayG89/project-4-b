@@ -54,7 +54,7 @@ export default class LoadList extends Component {
                         return (
 
                             <div key={ i }>
-                                <Link to={`/load/${load.id}`}>{load.loadnum}</Link>
+                                <Link to={`/load/${load.id}`}>{load.pickuploc}</Link>
                             </div>
                         )
                     })

@@ -27,7 +27,7 @@ export default class Home extends Component {
                             <div>
                                 <Link to="/truck">
                                     <img src="/Truck2.jpg" alt="Truck" width="350" height="225" />
-                                    <div className="truckText"><h4>Find a Truck</h4></div>
+                                    <div className="truckText"><h4>Trucks</h4></div>
                                 </Link>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ export default class Home extends Component {
                             <div>
                                 <Link to="/load">
                                     <img src="/freight3.jpg" alt="Truck" width="350" height="225" />
-                                    <div className="freightText"><h4>Find a Load</h4></div>
+                                    <div className="freightText"><h4>Loads</h4></div>
                                 </Link>
                             </div>
 
