@@ -1,20 +1,10 @@
 {
-  "name": "project-4-b",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ClayG89/project-4-b.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ClayG89/project-4-b/issues"
-  },
-  "homepage": "https://github.com/ClayG89/project-4-b#readme"
-}
+    "name": "providence_project",
+    "scripts": {
+      "build": "cd client && npm install && npm run build && cd ..",
+      "postinstall": "npm run build && echo 'Client built!'"
+    },
+    "dependencies": {
+      "bootstrap": "^4.4.1"
+    }
+  }
