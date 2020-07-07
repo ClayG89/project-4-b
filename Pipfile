@@ -13,6 +13,7 @@ django-phone-field = "*"
 foreman = "*"
 django-heroku = "*"
 gunicorn = "*"
+django-extensions = "*"
 
 [requires]
 python_version = "3.8"
