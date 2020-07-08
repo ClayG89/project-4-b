@@ -12,8 +12,8 @@ djangorestframework = "*"
 django-phone-field = "*"
 foreman = "*"
 django-heroku = "*"
-gunicorn = "*"
 django-extensions = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
